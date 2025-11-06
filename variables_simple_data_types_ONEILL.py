@@ -31,3 +31,10 @@ print(str(num1) + " plus " + str(num2) + " equals " + str(addition))
 print(str(num1) + " minus " + str(num2) + " equals " + str(subtraction))
 print(str(num1) + " times " + str(num2) + " equals " + str(multiplication))
 print(str(num1) + " divided by " + str(num2) + " equals " + str(division))
+
+# Store current month and day
+current_month = "November"
+current_day = 5
+
+# Print formatted date with tabs
+print("\n\t\tToday is day " + str(current_day) + " of the month of " + current_month + ".")
